@@ -149,9 +149,10 @@ img {
   display: inline-block;
   background-color: var(--container-color);
   color: var(--title-color);
-  padding: .5rem 1rem;
-  border-radius: 1rem;
-  font-weight: var(--font-medium);
+  padding: .75rem 2rem;
+  border-radius: 1.8rem;
+  font-weight: var(--font-semi-bold);
+  font-size: 1.2rem;
 }
 
 /* .button:hover {
@@ -175,29 +176,18 @@ img {
     margin-right: var(--mb-1-5);
   }
 
-  .button {
-    padding: 1rem 1.75rem;
-  }
 
-  .button__icon {
-    width: 22px;
-    height: 22px;
-  }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
+
 
   .section {
     padding: 2rem 0 4rem;
   }
 
-  .section__subtitle {
-    margin-bottom: var(--mb-3);
-  }
+  
 }
 
 @media screen and (max-width: 576px) {

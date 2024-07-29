@@ -46,7 +46,7 @@ function Services() {
 
   return (
     <section className="services section" id="services">
-      <div className="services_head container grid">
+      <div className="section__head container grid">
         <h2 className="section__title">
           What Can We Do For Your Home
         </h2>

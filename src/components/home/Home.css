@@ -30,7 +30,6 @@
     align-items: center;
     justify-content: center;
     column-gap: .5rem;
-    cursor: pointer;
     color: var(--text-color);
 }
 
@@ -38,6 +37,7 @@
     padding: .5rem 1rem;
     border: 2px solid var(--container-color);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .home_scroll-item i{

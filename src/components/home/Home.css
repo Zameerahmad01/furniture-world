@@ -31,6 +31,7 @@
     justify-content: center;
     column-gap: .5rem;
     cursor: pointer;
+    color: var(--text-color);
 }
 
 .home_scroll-item{
@@ -51,6 +52,7 @@
 
 
 .home_right-content-desc{
+    color: var(--text-color);
     margin-bottom: var(--mb-3);
     font-weight: var(--font-normal);
 }

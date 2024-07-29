@@ -48,7 +48,7 @@ function Services() {
     <section className="services section" id="services">
       <div className="services_head container grid">
         <h2 className="section__title">
-          What Can We Do <br /> For Your Home
+          What Can We Do For Your Home
         </h2>
         <p className="section__desc">
           We always provide the best for our clients in any case so that all

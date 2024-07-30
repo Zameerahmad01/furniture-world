@@ -9,16 +9,19 @@ function Footer() {
           Let's Work <br />
           Together
         </h2>
-        <p className="section__desc">
+        <div>
+          <p className="section__desc">
           We always provide the best for our clients in any case so that all
           their wishes can be realized and have a decent, comfortable and
           aesthetically pleasing place to live. Pleasing environment for the
-          people using the space.
+          people using the space. 
+        </p>
 
-          <button className="button footer_button">
+        <button className="button footer_button">
             Contact Us
           </button>
-        </p>
+        </div>
+        
       </div>
 
       <div className="footer_container container grid">

@@ -67,7 +67,7 @@ function Header() {
             onClick={()=>{
             Toggle ? ShowMenu(false) : ShowMenu(true)
         }}>
-            <i className='uil uil-apps'></i>
+            <i className="uil uil-bars"></i>
         </div>
       </nav>
     </header>

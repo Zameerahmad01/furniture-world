@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 import image1 from "../../assets/Rectangle 615.png";
 import image2 from "../../assets/Rectangle 612.png";
 
@@ -18,17 +18,20 @@ function Home() {
             <div className="home_left-img">
               <img src={image1} alt="" />
             </div>
-
-            <Link 
-            to="about"
-            className="home_scroll">
+            <div className="home_scroll">
+              <Link
+               smooth={true} 
+               offset={-60} 
+               duration={100}  
+               to="services" className="home_scroll">
               <div className="home_scroll-item">
                 <i className="uil uil-arrow-down"></i>
               </div>
               <span>
                 scroll down <br /> to explore
               </span>
-            </Link>
+            </Link></div>
+            
           </div>
         </div>
 

@@ -46,7 +46,7 @@ function Services() {
 
   return (
     <section className="services section" id="services">
-      <div className="section__head container grid">
+      <div className="section__head  container grid">
         <h2 className="section__title">
           What Can We Do For Your Home
         </h2>
@@ -96,6 +96,8 @@ function Services() {
 
       {isVisible && (
         <div
+        onMouseEnter={handleMouseEnterContainer}
+        onMouseLeave={handleMouseLeaveContainer}
           className="services_fixed-image"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         ></div>

@@ -6,7 +6,7 @@ const navLinks = [
 
 
     {
-      to: "company",
+      to: "works",
       display: "company",
     },
     
@@ -15,12 +15,12 @@ const navLinks = [
       display: "Home",
     },
     {
-      to: "about",
+      to: "services",
       display: "About",
     },
     
     {
-      to: "contact",
+      to: "footer",
       display: "Contact",
     },
 ]

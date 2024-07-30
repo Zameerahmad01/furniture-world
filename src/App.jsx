@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Services from './components/services/Services'
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Services />
       <Work />
+      <Footer />
     </main>
     </>
   )

@@ -52,3 +52,36 @@
     border-radius: 50%;
     font-size: 1.5rem;
 }
+
+.works_item-image {
+    display: flex;
+    align-items: center;
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .works_item{
+        grid-template-columns: 1fr;
+    }
+
+    .works_item-content{
+        order: 1;
+        padding-top: 1rem;
+        row-gap: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+  
+  }
+  
